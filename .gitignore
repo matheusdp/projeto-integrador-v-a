@@ -1,0 +1,7 @@
+# IDE
+.idea/
+
+# Specs e docs internos
+specs
+CLAUDE.md
+*.docx

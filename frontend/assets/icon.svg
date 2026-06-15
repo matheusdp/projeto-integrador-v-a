@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Fundo azul com cantos arredondados (padrão ícone iOS) -->
+  <rect width="1024" height="1024" fill="#1a73e8" rx="220"/>
+
+  <!-- Círculo branco semi-transparente — igual ao iconCircle do SplashScreen -->
+  <circle cx="512" cy="490" r="280" fill="white" fill-opacity="0.2"/>
+
+  <!-- Cabo esquerdo (anel) -->
+  <circle cx="400" cy="672" r="65" fill="none" stroke="white" stroke-width="48"/>
+  <!-- Cabo direito (anel) -->
+  <circle cx="624" cy="672" r="65" fill="none" stroke="white" stroke-width="48"/>
+
+  <!-- Lâmina esquerda: cabo → canto superior direito -->
+  <line x1="400" y1="607" x2="660" y2="320"
+        stroke="white" stroke-width="48" stroke-linecap="round"/>
+  <!-- Lâmina direita: cabo → canto superior esquerdo -->
+  <line x1="624" y1="607" x2="364" y2="320"
+        stroke="white" stroke-width="48" stroke-linecap="round"/>
+
+  <!-- Pino de articulação — cruzamento das lâminas em (512, 483) -->
+  <circle cx="512" cy="483" r="38" fill="#1a73e8"/>
+  <circle cx="512" cy="483" r="18" fill="white"/>
+</svg>
